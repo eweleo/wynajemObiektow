@@ -1,0 +1,8 @@
+
+$ curl -d '{"name": "Leon"}' -H 'Content-Type: application/json' http://localhost:8080/reservations/user
+
+
+$ curl -d '{"id": 1}' -H 'Content-Type: application/json' http://localhost:8080/reservations/object_for_rent
+
+
+$ curl -d '{"userName": "Anna", "objectId": 1, "start": "2022-12-01", "end": "2022-12-02}' -H 'Content-Type: application/json' http://localhost:8080/reservations
